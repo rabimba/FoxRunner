@@ -1,0 +1,30 @@
+{
+  "name": "FoxRunner",
+  "version": "0.0.1",
+  "description": "A Running/biking/hiking tracking application.The application saves the path of the user via the phone's GPS position and displays it on a map. It also calculates distance, altitude, and duration of the course, the user's speed, and calories burned.",
+  "launch_path": "/index.html",
+  "icons": {
+    "32": "/rsc/icons/32.png",
+    "60": "/rsc/icons/60.png",
+    "90": "/rsc/icons/90.png",
+    "120": "/rsc/icons/120.png",
+    "128": "/rsc/icons/128.png"
+  },
+  "developer": {
+    "name": "Rabimba Karanjai",
+    "url": "http://www.rabimba.com"
+  },
+  "installs_allowed_from": ["*"],
+  "fullscreen": "true",
+  "default_locale": "en",
+  "locales": {
+    "bn-IN": {
+      "description": "নিজের ভৌগলিক গতিপথ রেকর্ড করে রাখার জন্যে এপ্লিকেশন"
+    }
+  },
+  "permissions":{
+    "geolocation": {
+      "description": "Needed for the app to get positions from the device."
+    }
+  }
+}
